@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Asteroids", "Code\Game\Game.vcxproj", "{B05DE989-1108-4614-8223-684ABA3AE7E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\..\Engine\Code\Engine\Engine.vcxproj", "{85631FE2-C416-4954-BD9B-E9B679A79FF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FE34ACE-60B7-4026-BBFE-F0D86405FC19}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{88D5B1AA-18C4-4F96-8630-0E244E6133E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{CDDEC5EB-0116-4012-86A5-0B27F95B39AE}"
+	ProjectSection(SolutionItems) = preProject
+		Run_Win32\Data\Images\aincrad.png = Run_Win32\Data\Images\aincrad.png
+		Run_Win32\Data\Images\asteroid.png = Run_Win32\Data\Images\asteroid.png
+		Run_Win32\Data\Images\asteroid.psd = Run_Win32\Data\Images\asteroid.psd
+		Run_Win32\Data\Images\Gamemode_Menu_1.png = Run_Win32\Data\Images\Gamemode_Menu_1.png
+		Run_Win32\Data\Images\Gamemode_Menu_2.png = Run_Win32\Data\Images\Gamemode_Menu_2.png
+		Run_Win32\Data\Images\Gamemode_Menu_3.png = Run_Win32\Data\Images\Gamemode_Menu_3.png
+		Run_Win32\Data\Images\JoinGameMenu_1.png = Run_Win32\Data\Images\JoinGameMenu_1.png
+		Run_Win32\Data\Images\JoinGameMenu_2.png = Run_Win32\Data\Images\JoinGameMenu_2.png
+		Run_Win32\Data\Images\JoinGameMenu_3.png = Run_Win32\Data\Images\JoinGameMenu_3.png
+		Run_Win32\Data\Images\JoinGameMenu_4.png = Run_Win32\Data\Images\JoinGameMenu_4.png
+		Run_Win32\Data\Images\loghorizon.png = Run_Win32\Data\Images\loghorizon.png
+		Run_Win32\Data\Images\MainMenu_1.png = Run_Win32\Data\Images\MainMenu_1.png
+		Run_Win32\Data\Images\MainMenu_2.png = Run_Win32\Data\Images\MainMenu_2.png
+		Run_Win32\Data\Images\MainMenu_3.png = Run_Win32\Data\Images\MainMenu_3.png
+		Run_Win32\Data\Images\Shooter_Boss_Sprite.png = Run_Win32\Data\Images\Shooter_Boss_Sprite.png
+		Run_Win32\Data\Images\Shooter_SpriteSheet_C64.png = Run_Win32\Data\Images\Shooter_SpriteSheet_C64.png
+		Run_Win32\Data\Images\Shooter_SpriteSheet_C64_Modified.png = Run_Win32\Data\Images\Shooter_SpriteSheet_C64_Modified.png
+		Run_Win32\Data\Images\ShooterSpriteSheet_Modified.png = Run_Win32\Data\Images\ShooterSpriteSheet_Modified.png
+		Run_Win32\Data\Images\ShooterSpriteSheet_Modified.psd = Run_Win32\Data\Images\ShooterSpriteSheet_Modified.psd
+		Run_Win32\Data\Images\ShooterSpriteSheet_Modified_Cropped.psd = Run_Win32\Data\Images\ShooterSpriteSheet_Modified_Cropped.psd
+		Run_Win32\Data\Images\Starfield.png = Run_Win32\Data\Images\Starfield.png
+		Run_Win32\Data\Images\Starfield.psd = Run_Win32\Data\Images\Starfield.psd
+		Run_Win32\Data\Images\stone_diffuse.png = Run_Win32\Data\Images\stone_diffuse.png
+		Run_Win32\Data\Images\stone_normal.png = Run_Win32\Data\Images\stone_normal.png
+		Run_Win32\Data\Images\test_normal.jpg = Run_Win32\Data\Images\test_normal.jpg
+		Run_Win32\Data\Images\Test_OpenGL.png = Run_Win32\Data\Images\Test_OpenGL.png
+		Run_Win32\Data\Images\Test_StbiAndDirectX.png = Run_Win32\Data\Images\Test_StbiAndDirectX.png
+		Run_Win32\Data\Images\W3WH.png = Run_Win32\Data\Images\W3WH.png
+		Run_Win32\Data\Images\White.png = Run_Win32\Data\Images\White.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B05DE989-1108-4614-8223-684ABA3AE7E0}.Debug|x64.ActiveCfg = Debug|x64
+		{B05DE989-1108-4614-8223-684ABA3AE7E0}.Debug|x64.Build.0 = Debug|x64
+		{B05DE989-1108-4614-8223-684ABA3AE7E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{B05DE989-1108-4614-8223-684ABA3AE7E0}.Debug|x86.Build.0 = Debug|Win32
+		{B05DE989-1108-4614-8223-684ABA3AE7E0}.Release|x64.ActiveCfg = Release|x64
+		{B05DE989-1108-4614-8223-684ABA3AE7E0}.Release|x64.Build.0 = Release|x64
+		{B05DE989-1108-4614-8223-684ABA3AE7E0}.Release|x86.ActiveCfg = Release|Win32
+		{B05DE989-1108-4614-8223-684ABA3AE7E0}.Release|x86.Build.0 = Release|Win32
+		{85631FE2-C416-4954-BD9B-E9B679A79FF8}.Debug|x64.ActiveCfg = Debug|x64
+		{85631FE2-C416-4954-BD9B-E9B679A79FF8}.Debug|x64.Build.0 = Debug|x64
+		{85631FE2-C416-4954-BD9B-E9B679A79FF8}.Debug|x86.ActiveCfg = Debug|Win32
+		{85631FE2-C416-4954-BD9B-E9B679A79FF8}.Debug|x86.Build.0 = Debug|Win32
+		{85631FE2-C416-4954-BD9B-E9B679A79FF8}.Release|x64.ActiveCfg = Release|x64
+		{85631FE2-C416-4954-BD9B-E9B679A79FF8}.Release|x64.Build.0 = Release|x64
+		{85631FE2-C416-4954-BD9B-E9B679A79FF8}.Release|x86.ActiveCfg = Release|Win32
+		{85631FE2-C416-4954-BD9B-E9B679A79FF8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88D5B1AA-18C4-4F96-8630-0E244E6133E6} = {3FE34ACE-60B7-4026-BBFE-F0D86405FC19}
+		{CDDEC5EB-0116-4012-86A5-0B27F95B39AE} = {88D5B1AA-18C4-4F96-8630-0E244E6133E6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<effects>
+  <effect effect_name="test_emission" type_of_effect="CONTINUOUS" effect_has_prewarm="false">
+    <emitters>
+      <emitter emitter_name="unknown type">
+
+        <lifetime is_inifinite="true"  lifetime_seconds="0.0"/>
+
+        <per_second min_number_of_particles_per_second="20" max_number_of_particles_per_second="50"/>
+        <particle_lifetime p_lifetime_seconds="0.5"/>
+
+        <location world_location="0.0,0.0,0.0"/>
+        <rotation min_rotation_degrees="0" max_rotation_degrees="180"/>
+        
+        <velocity min_velocity="-10.0,-10.0,-10.0" max_velocity="10.0,10.0,10.0"/>
+        <acceleration acceleration_vector="0.0,0.0,0.0"/>
+
+        <tint tint_color="0,255,0,255"/>
+        <size size_radius="0.3"/>
+        <prewarm is_prewarm="false"/>
+        <initial_burst initial_number_particles="0"/>
+
+      </emitter>
+    </emitters>
+  </effect>
+</effects>
